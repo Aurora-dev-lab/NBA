@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nar class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top"><!--菜单固定在顶部-->
+        <!-- lg/md可调控页面宽度显示范围-->
+        <div class="container">
+            <a href="#" class="navbar-brand">NBA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <!--在最右侧显示按钮(margin start)-->
+                    <li class="nav-item">
+                        <div class="nav-link">NFL</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link">MLB</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link">NHL</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nar>
+    <section class="p-5 bg-dark text-light text-center text-sm-start">
+        <!--padding  背景色 起始时居左-->
+        <div class="container">
+            <div class="d-flex">
+                <!--display flex(弹性盒子布局)-->
+                <div>
+                    <h1><span class="text-warning">篮球之神 </span> 迈克尔·乔丹</h1>
+                    <p class="my-4">
+                        <!--纵向布局-->
+                        外    名:Michael Jordan<br>
+                        别    名:M.J.、Air Jordan、空中传奇、GOAT、黑耶稣、篮球之神<br>
+                        国    籍:美国<br>
+                        出生日期:1963年2月17日<br>
+                        身    高:6英尺6英寸/1.98米<br>
+                        体    重:216磅/98公斤<br>
+                        毕业院校:埃姆斯利A莱尼高中、北卡罗莱纳大学<br>
+                        运动项目:篮球<br>
+                        所属运动:队夏洛特黄蜂队 <br>
+                        专业特点:得分、防守、领导能力超强<br>
+                        主要奖项:6次NBA总冠军（1991-93  1996-98）<br>
+                        5次美国:职业篮球联赛最有价值球员奖（1988 1991-92 1996 1998）<br>
+                        14次入选NBA全明星赛阵容（1985-93 1996-98 2002-03）<br>
+                        10次NBA最佳阵容一阵（1986-93 1996-98）<br>
+                        NBA年度最佳防守球员（1988年）<br>
+                    </p>
+                    <a href="https://baike.baidu.com/link?url=9uHCIL7yK35rjdhe0W1TOPLHu-1x3E3cwlsYsaDD5z4t8iFsOMgocyk0AJNUwh5qs7zI3rKOlNqGkkr38tRSHcq3czTSM3bwm8m3HOw_ii_5cGn_LNfbTZU3VeuU7WJ0b_HHMunl7EVbOVb-sPkEX_" class="btn btn-primary btn-lg" role="button">Learn more about the GOAT</a>                </div>
+                <img id="img1" src="./img/test1.jpg" alt="showcase" class="w-50 d-none d-md-block" > 
+                <!--宽度50%  图片缩放时可消失(大于md时block)-->
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 bg-primary text-light">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <!--弹性盒子布局-->
+                <h3 class="mb-3"><span class="text-warning">NBA Infomation</span> Search Engine</h3>
+                <!--设置间距-->
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Type the player you want to know:">
+                    <button class="btn btn-dark btn-lg">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <!--间距-->
+                <div class="col-md">
+                    <!--大于md时才会生效-->
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title">
+                                分卫/控卫
+                            </div>
+                            <div class="card-text">
+                                具备出色的得分能力和外线投篮技巧<br>
+                                能够组织进攻、传球并控制比赛节奏<br>
+                                需要出色的运动能力、防守技巧<br>
+                                兼具智慧与领导力
+                            </div>
+                            <a href="#" class="btn btn-primary mt-2">了解分位/控卫</a>
+                            <!--margin top +2px-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title">
+                                小前锋/大前锋
+                            </div>
+                            <div class="card-text">
+                                身手敏捷，擅长突破和投篮<br>
+                                防守端有较强的盯人和拦截能力<br>
+                                具备出色的篮下技术和力量优势<br>
+                                防守端有较强的盖帽和防守篮板能力
+                            </div>
+                            <a href="#" class="btn btn-dark mt-2">了解小前/大前</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title">
+                                中锋
+                            </div>
+                            <div class="card-text">
+                                具有出色的身体素质和力量<br>
+                                擅长低位进攻和防守<br>
+                                具备良好的篮球智慧和组织能力<br>
+                                防守端承担重要的篮板和盖帽任务
+                            </div>
+                            <a href="#" class="btn btn-primary mt-2">了解中锋</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--多个col在同一row里面(同一行显示)-->
+        </div>
+
+    </section>
+    <section>
+        <section class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <!--确保水平和垂直居中-->
+                    <div class="col-md">
+                        <img src="img/test10.jpg" alt="1" class="img-fluid">
+                    </div>
+                    <div class="col-md p-5 text-left">
+                        <!--与上一元素产生5px间距-->
+                        <h2><span style="color:navy"><em>死神镰刀</em></span><br>凯文·杜兰特</h2>
+                        <p id="p1" class="lead">凯文·杜兰特（Kevin Durant），全名凯文·韦恩·杜兰特（Kevin Wayne Durant）1988年9月29日出生于美国华盛顿哥伦比亚特区，美国职业篮球运动员，司职前锋，效力于NBA菲尼克斯太阳队。
+                        </p>
+                        <p id="p2" class="lead">
+                            2007年NBA选秀，凯文·杜兰特在首轮第二顺位被西雅图超音速队（现俄克拉荷马城雷霆队）选中。2013-14赛季，杜兰特荣膺NBA常规赛MVP。2016年，杜兰特加盟金州勇士队，于2016-17赛季、2017-18赛季帮助勇士队夺得NBA总冠军，个人两度荣膺总决赛MVP（FMVP）。2019年，杜兰特加盟布鲁克林篮网队。2021年，杜兰特入选NBA75大巨星2023年，杜兰特被交易至菲尼克斯太阳队。
+                        </p>
+                        <a href="https://baike.baidu.com/item/%E5%87%AF%E6%96%87%C2%B7%E6%9D%9C%E5%85%B0%E7%89%B9?fromtitle=%E5%87%AF%E6%96%87%E6%9D%9C%E5%85%B0%E7%89%B9&fromid=2944224&fromModule=lemma_search-box" class="btn btn-light">了解更多</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section>
+        <section class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <!--确保水平和垂直居中-->
+
+                    <div class="col-md p-5 text-left">
+                        <!--与上一元素产生5px间距-->
+                        <h2><span style="color:orange"><em>纯阳之火</em></span><br>德文·布克</h2>
+                        <p id="p3" class="lead">德文·布克（Devin Booker），1996年10月30日出生于美国密歇根州大急流城，美国职业篮球运动员，司职得分后卫，效力于NBA菲尼克斯太阳队。</p>
+                        <p id="p4" class="lead">
+                            德文·布克于2014年进入肯塔基大学，2014-15赛季当选东南联盟最佳第六人、入选东南联盟最佳阵容二队和最佳新秀阵容；2015年通过选秀进入NBA，2015-16赛季入选最佳新秀阵容第一阵容；2017-18赛季夺得全明星三分球大赛冠军；2019-20赛季入选全明星西部替补阵容；2020-21赛季入选全明星西部替补阵容；2021-22赛季入选最佳阵容第一阵容以及全明星西部替补阵容。
+                        </p>
+                        <a href="https://baike.baidu.com/item/%E5%BE%B7%E6%96%87%C2%B7%E5%B8%83%E5%85%8B/16944236?fromModule=search-result_lemma-recommend" class="btn btn-light">了解更多</a>
+                    </div>
+                    <div class="col-md">
+                        <img id="img2" src="img/test11.jpg" alt="1" class="img-fluid">
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center">王朝球队梗概</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><!--data-bs-target响应下方的div-->
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            1960年~1980年
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">洛杉矶湖人队在1960年至1980年期间取得了辉煌的成就。他们在此期间共获得了6次总冠军，分别是1972年、1980年、1982年、1985年、1987年和1988年。球队拥有众多传奇球员，如乔治·麦肯、杰瑞·韦斯特、埃尔金·贝勒和魔术师约翰逊。湖人队在这段时间内成为了NBA的顶尖球队，为球迷留下了深刻的历史印记。</div>
+                    </div><!--如果为show则默认手风琴组件展开-->
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            1980年~2000年
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">芝加哥公牛队在1980年至2000年期间取得了卓越的成就。球队在这段时间内共获得了6个总冠军，分别是1991年、1992年、1993年、1996年、1997年和1998年。这一时期见证了迈克尔·乔丹的辉煌时代，他成为了公牛队的代表人物。同时，球队还拥有斯科蒂·皮蓬等众多优秀球员。公牛队在这段时间内成为了NBA的统治力量，创造了众多不朽的篮球传奇。</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            2000年~2020年
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">金州勇士队在2000年至2020年期间取得了显著的成就。球队在此期间崛起为NBA的强队，夺得了3次总冠军，分别是2015年、2017年和2018年。他们的阵容汇集了众多顶级球员，如史蒂芬·库里、克莱·汤普森和凯文·杜兰特。金州勇士队在这段时间内展现了出色的团队实力和无懈可击的三分球技术，成为了NBA赛场上备受瞩目的球队。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-light"><span style="color:gold">荣誉一览</span></h2>
+            <p class="lead text-center text-white mb-5">
+                常规赛MVP、总决赛MVP、最佳阵容、最佳防守球员、得分王、全明星一阵
+            </p>
+            <div class="row g-4"><!--卡片之间设置间距-->
+                <div class="col-md-6 col-lg-3"><!--大于md时占6格 大于lg时占3格 总共占12格-->
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/test4.jpg" class="img-fluid mb-3 rounded-circle">
+                            <h3 class=""card-title>
+                                常规赛MVP
+                            </h3>
+                            <p id="p5" class="card-text">NBA常规赛MVP（最有价值球员）奖项是联盟中最高荣誉之一。该奖项表彰常规赛中表现最出色的球员，展现出色的统治力和领导能力。获得该奖项的球员往往对球队取得成功起到至关重要的作用，并展现出非凡的个人技术和统治力。</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/test5.jpg" class="img-fluid mb-3 rounded-circle">
+                            <h3 class=""card-title>
+                                总决赛MVP
+                            </h3>
+                            <p id="p5" class="card-text">NBA季后赛最有价值球员（FMVP）是一项备受尊重的荣誉。获得该奖项的球员往往展现出在关键比赛中的卓越表现和领导能力，对球队的成功发挥着重要作用。这一荣誉代表着球员在季后赛中对球队取得胜利所做出的重大贡献。</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/test6.jpg" class="img-fluid mb-3 rounded-circle">
+                            <h3 class=""card-title>
+                                得分王
+                            </h3>
+                            <p id="p5" class="card-text">NBA得分王是由联盟每个赛季的得分最高的球员所获得的荣誉称号。这代表着球员在进攻端的出色表现和得分能力。获得得分王意味着球员在得分技巧和比赛影响力方面的卓越表现，展现了其在进攻端的统治力和对球队进攻的重要贡献。</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="img/test7.jpg" class="img-fluid mb-3 rounded-circle">
+                            <h3 class=""card-title>
+                                全明星
+                            </h3>
+                            <p id="p5" class="card-text">入选NBA全明星阵容是一项极具含金量的荣誉，代表着联盟内最顶尖的球员。这意味着球员在技术、领导力和影响力方面得到了认可，能够与其他最杰出的球员一同竞技。入选全明星阵容不仅是对球员个人能力的认可，也是对其在联盟中地位的肯定。</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">联系作者</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">电话:13162331893</li>
+                <li class="list-group-item">邮箱:1905502744@qq.com</li>
+                <li class="list-group-item">地址:上海市沪城环路1851号一栋A302</li>
+              </ul>
+        </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2023 半城浮华半城寂
+            </p>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

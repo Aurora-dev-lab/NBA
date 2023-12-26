@@ -1,0 +1,26 @@
+@media (min-width:768px){
+    .news-input{
+        width:50%;
+    }
+}
+/* 大于768px时才显示50% */
+body::before{
+    display: block;
+    content: '';
+    height: 56px;
+}
+/* 在body之间增添一个navbar的高度 */
+#img1{
+    height:520px
+}
+#img2
+{
+    height:360px
+}
+#p1,#p2,#p3,#p4 {
+    font-size: 16px;
+  }
+
+#p5{
+    font-size: 14px;
+  }
